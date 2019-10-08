@@ -1,0 +1,3 @@
+class contohAbsract(object):
+    def__init(self):
+      raise Exception(*Kelas tidak dapat "+ diinstansiasi")
