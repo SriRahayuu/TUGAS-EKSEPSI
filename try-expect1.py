@@ -2,7 +2,7 @@
 import sys
 def main():
   # membuat judul program
-  Print ("PROGRAM PEMBAGIAN BILANGAN")
+  print ("PROGRAM PEMBAGIAN BILANGAN")
   
   # meminta user measukkan bilangan
   a = float(input("masukkan a: "))
@@ -11,8 +11,8 @@ def main():
   #mendefinisikan blok try...except
   try:
     hasil = a/b
-  except zeroDIVIsiOError:
-    print("/nError:Nilai b tidak boleh nol")
+  except ZeroDivisionError:
+    print("\nError:Nilai b tidak boleh nol")
     sys.exit(1) #menghentikan program
    #menampilakn hasil
    print("\na : ", a)
